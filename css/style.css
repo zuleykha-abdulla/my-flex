@@ -1,0 +1,188 @@
+body {
+  background-color: red;
+  background-image: linear-gradient(
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
+/*flex ile setrlerin (row) yerlesdirilmesini nezerden kecirek*/
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.div4 {
+  background-color: blue;
+  padding: 10px;
+}
+.div5 {
+  background-color: green;
+  padding: 10px;
+}
+.div6 {
+  background-color: red;
+  padding: 10px;
+}
+
+/* flex row-reverse ile setrlerin  eks istiqametde yerlesdirilmesi*/
+
+.flex-container3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.div7 {
+  background-color: blue;
+  padding: 10px;
+}
+.div8 {
+  background-color: green;
+  padding: 10px;
+}
+.div9 {
+  background-color: red;
+  padding: 10px;
+}
+
+/* flex column ile sutunlarin  yerlesdirilmesi*/
+
+.flex-container4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.div10 {
+  background-color: blue;
+  padding: 10px;
+}
+.div11 {
+  background-color: green;
+  padding: 10px;
+}
+.div12 {
+  background-color: red;
+  padding: 10px;
+}
+
+/* flex column-reverse ile sutunlarin eks istiqametde yerlesdirilmesi*/
+
+.flex-container5 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.div13 {
+  background-color: blue;
+  padding: 10px;
+}
+.div14 {
+  background-color: green;
+  padding: 10px;
+}
+.div15 {
+  background-color: red;
+  padding: 10px;
+}
+
+/* wrap ile istiqametlendirme*/
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #dd1d1d;
+}
+
+.flex-container div {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.div1 {
+  background-color: blue;
+  padding: 10px;
+}
+.div2 {
+  background-color: green;
+  padding: 10px;
+}
+.div3 {
+  background-color: red;
+  padding: 10px;
+}
+
+/* flex-flow ile wrap birge yaratdigi istiqamet*/
+.flex-container6 {
+  display: flex;
+  flex-flow: row wrap;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #dd1d1d;
+}
+.flex-container6 div {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+.div16 {
+  background-color: rgb(182, 54, 194);
+  padding: 10px;
+}
+.div17 {
+  background-color: green;
+  padding: 10px;
+}
+.div18 {
+  background-color: red;
+  padding: 10px;
+}
+/*elementləri justify-content center horizontal uzre merkezde yerlesdirilir*/
+.flex-container7 {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 100px;
+  border: 2px solid #830d0d;
+}
+.div19 {
+  background-color: blue;
+  padding: 10px;
+}
+.div20 {
+  background-color: green;
+  padding: 10px;
+}
+.div21 {
+  background-color: red;
+  padding: 10px;
+}
+
+/*elementləri space-between horizontal uzre merkezde arame mesafeleri ile yerlesdirilir*/
+.flex-container8 {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  border: 2px solid #830d0d;
+}
+.div22 {
+  background-color: blue;
+  padding: 10px;
+}
+.div23 {
+  background-color: green;
+  padding: 10px;
+}
+.div24 {
+  background-color: red;
+  padding: 10px;
+}

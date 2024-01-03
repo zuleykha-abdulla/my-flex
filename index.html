@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>Display: flex</h1>
+      <p>
+        Flex –dən əvvəl front-end-də div-ləri rəsimləri yerləşdirmək üçün
+        position-dan , table-dan və ya float-dan istifadə edirdilər. Daha sonra
+        display:flex özəlliyi vasitəsi ilə bunu rahatlıqla etdilər. Display flex
+        verilən elementlərin ana div-lərində aşağıdakı xüsusiyyətlərdən istifadə
+        edirik
+      </p>
+      <ul>
+        <li>flex-direction</li>
+        <li>flex-wrap</li>
+        <li>flex-wrap</li>
+        <li>flex-flow</li>
+        <li>justify-content</li>
+        <li>align-items</li>
+        <li>align-content</li>
+      </ul>
+    </div>
+
+    <!--flexin istiqamatlerini nezerden kecirek-->
+    <div>
+      <h1>Flex-direction</h1>
+      <p>
+        Flex-direction xüsusiyyəti blok elementləri hansı istiqamətdə yığmaq
+        istədiyini müəyyən edir.
+      </p>
+      <ul>
+        <li>Column</li>
+        <li>Column-reverse - əks itiqamətdə yerləşdirir</li>
+        <li>Row</li>
+        <li>Row-reverse - əks itiqamətdə yerləşdirir</li>
+      </ul>
+    </div>
+    <h1>Row setr uzre yerlesdirir</h1>
+    <div class="flex-container2">
+      <div class="div4">mavi</div>
+      <div class="div5">yasil</div>
+      <div class="div6">qirmizi</div>
+    </div>
+    <h1>Row-reverse - divleri əks itiqamətdə yerləşdirir</h1>
+    <div class="flex-container3">
+      <div class="div7">mavi</div>
+      <div class="div8">yasil</div>
+      <div class="div9">qirmizi</div>
+    </div>
+    <h1>Column divleri sutun uzre yerləşdirir</h1>
+    <div class="flex-container4">
+      <div class="div10">mavi</div>
+      <div class="div11">yasil</div>
+      <div class="div12">qirmizi</div>
+    </div>
+
+    <h1>Column-reverse - divleri əks itiqamətdə yerləşdirir</h1>
+    <div class="flex-container5">
+      <div class="div13">mavi</div>
+      <div class="div14">yasil</div>
+      <div class="div15">qirmizi</div>
+    </div>
+    <hr />
+    <div>
+      <h1>Flex-wrap</h1>
+      <p>
+        Flex-wrap xassəsi elementlərin verilən hissəyə yerləşməyəndə aşağı
+        düşməsini müəyyənləşdirir. Aşağıda verilən value-ları var
+      </p>
+      <ul>
+        <li>Wrap</li>
+        <li>No-wrap</li>
+        <li>Wrap-reverse - eks istiqamete yoneldir</li>
+      </ul>
+    </div>
+    <div class="flex-container">
+      <div class="div1"></div>
+      <div class="div2"></div>
+      <div class="div3"></div>
+      <div class="div1"></div>
+      <div class="div2"></div>
+      <div class="div3"></div>
+    </div>
+    <hr />
+    <div>
+      <h1>Flex-flow</h1>
+      <p>
+        Flex-flow xüsusiyyəti direction və wrap-i birgə istifadə etmək üçündür
+      </p>
+      <div class="flex-container6">
+        <div class="div16">pink</div>
+        <div class="div17">yasil</div>
+        <div class="div18">qirmizi</div>
+      </div>
+    </div>
+    <hr />
+    <div>
+      <h1>Justify-content</h1>
+      <p>
+        Bu xüsusiyyət sayəsində elementləri horizontal ortalamaq və yerlərini
+        dəyişmək mümkündür. Aşağıdakı value-ləri var:
+      </p>
+      <ul>
+        <li>center ilə elemntləri mərkəzə dogru tənzimləmək mümkündür.</li>
+        <li>flex-start ilə elementləri əvvəldə yerləşdirmək mümkündür.</li>
+        <li>flex-end ilə elementləri sonda yerləşdirmək mümkündür.</li>
+        <li>space-around ilə elementləri ətrafda yerləşdirmək mümkündür.</li>
+        <li>
+          space-between ilə elementlər arasinda araliq məsafə tənzimləmək
+          mümkündür.
+        </li>
+        <li>
+          space-evenly ilə elementlərdə aralıq məsafəsi tənzimləmək mümkündür.
+        </li>
+      </ul>
+    </div>
+
+    <div class="flex-container7">
+      <div class="div19">mavi</div>
+      <div class="div20">yasil</div>
+      <div class="div21">qirmizi</div>
+    </div>
+    <h1>
+      Space-between ile elementlər arasinda araliq mesafə tətbiq etmek mümkündür
+    </h1>
+    <div class="flex-container8">
+      <div class="div22">mavi</div>
+      <div class="div23">yasil</div>
+      <div class="div24">qirmizi</div>
+    </div>
+  </body>
+</html>

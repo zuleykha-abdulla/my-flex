@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Align-items</title>
+    <link rel="stylesheet" href="/css/wrap.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Align-items</h1>
+      <p>
+        Bu xüsusiyyət vasitəsi ilə elementləri vertical olaraq ortalamaq üçün
+        istifadə olunur.Aşağıdakı value-ləri var:
+      </p>
+      <ul>
+        <li>flex-start</li>
+        <li>flex-end</li>
+        <li>center</li>
+        <li>stretch</li>
+      </ul>
+    </div>
+
+    <!----------->
+
+    <div class="flex-container">
+      <div class="div1"></div>
+      <div class="div2"></div>
+      <div class="div3"></div>
+    </div>
+    <div>
+      <h1>align-items: stretch</h1>
+
+      <div class="flex-container1">
+        <div class="div4"></div>
+        <div class="div5"></div>
+        <div class="div6"></div>
+      </div>
+    </div>
+
+    <div>
+      <h2>align-items: baseline</h2>
+
+      <div class="flex-container2">
+        <div class="div7"></div>
+        <div class="div8"></div>
+        <div class="div9"></div>
+      </div>
+    </div>
+    <hr />
+
+    <div>
+      <h1>Flex-grow</h1>
+      <p>
+        1 Bloku digərlərinə nisbətən daha böyük olmasına köməklik edir. Default
+        dəyəri 1-dir , artırmaq istəsək 2,3,4 və s yaza bilərik
+      </p>
+      <div id="main">
+        <div style="background-color: coral"></div>
+        <div style="background-color: lightblue"></div>
+        <div style="background-color: khaki"></div>
+        <div style="background-color: pink"></div>
+        <div style="background-color: lightgrey"></div>
+      </div>
+    </div>
+
+    <div>
+      <h1>Flex-shrink</h1>
+      <p>
+        1 Bloku digərlərinə nisbətən daha kiçik olmasına köməklik edir. Default
+        dəyəri 1-dir , artırmaq istəsək 2,3,4 və s yaza bilərik
+      </p>
+      <div id="main">
+        <div style="background-color: coral"></div>
+        <div style="background-color: lightblue"></div>
+        <div style="background-color: khaki"></div>
+        <div style="background-color: pink"></div>
+        <div style="background-color: lightgrey"></div>
+      </div>
+    </div>
+
+    <div>
+      <h1>CSS-Media Queries</h1>
+      <p>
+        Media Query-lər Mobildə yaranan Problemləri həll etmək üçün istifadə
+        olunur. Default ölçülər 320,375,425,768,1024px –dir.Bunlar vasitəsi ilə
+        hündürlüyü,genişliyi,font-size,font-weight,display,visibility – bir
+        sözlə istədiyimiz hər stili dəyişdirə bilərik ekran ölçüsünə görə
+      </p>
+    </div>
+    <div>
+      <h1>Resize the browser window to see the effect!</h1>
+      <p>
+        The media query will only apply if the media type is screen and the
+        viewport is 480px wide or wider.
+      </p>
+    </div>
+  </body>
+</html>
